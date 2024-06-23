@@ -1,0 +1,7 @@
+@media (max-width: 750px) {
+    .mtable{
+        border: black solid 8px;
+        box-shadow: 2px 2px 4px 4px;
+    }
+}
+
