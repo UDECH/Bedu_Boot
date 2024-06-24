@@ -72,4 +72,155 @@ img {
   margin: 1px;
 }
 
+.bannermatcha {
+  background-color: #4caf50;
+  padding: 40px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.matcha-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.matcha-input input {
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 300px;
+}
+
+.matcha-button {
+  background-color: #004d40;
+  color: #fff;
+  padding: 10px;
+}
+
+.form-section {
+  background-color: #004d40;
+  padding: 30px 60px;
+  text-align: left;
+  color: #fff;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-input {
+  display: flex;
+  justify-content: right;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.matcha1 {
+  display: flex;
+  justify-content: right;
+}
+.matcha1 input {
+  padding: 20px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 300px;
+}
+.matcha1 .form-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 20px;
+}
+
+.containermatcha {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.containermatcha nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.containermatcha nav menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #4caf50;
+  font-size: 1em;
+  padding: 10px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+header button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: rgb(251, 253, 255);
+  border: 1px solid #dacccc;
+  padding: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 236px 35px 90px 60px;
+}
+.grid-item img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.grid-item h2 {
+  font-size: 1.5em;
+}
+.grid-item p {
+  font-size: 1em;
+}
+.grid-item button {
+  background-color: none;
+  color: #4caf50;
+  border: none;
+  padding: none;
+  cursor: pointer;
+}
+
+.subrayado {
+  color: #4caf50;
+}
+
 /*# sourceMappingURL=output.css.map */
