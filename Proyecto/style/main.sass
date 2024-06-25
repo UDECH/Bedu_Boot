@@ -163,36 +163,60 @@ header button
     cursor: pointer
 
 .grid-container
-    display: grid
-    grid-template-columns: repeat(4, 1fr)
-    gap: 20px
+    display: flex
+    justify-content: space-between
+    gap: 10px
+    flex-wrap: wrap
 
 .grid-item
+    width: 280px
+    height: 400px
+    box-shadow: 2px 2px 10px 0px
     background-color: rgb(251, 253, 255)
-    border: 1px solid #dacccc
-    padding: 20px
-    text-align: center
+    border: 2px solid #dacccc
     display: grid
-    grid-template-rows: 236px 35px 90px 60px
-
-    img
-        max-width: 100%
-        margin-bottom: 10px
-
-    h2
-        font-size: 1.5em
-        // margin-bottom: 130px
-
-    p
-        font-size: 1em
-
-    button
-        background-color: none
-        color: #4caf50
-        border: none
-        padding: none
-        cursor: pointer
-        // margin-right: 150px
+    grid-template-rows: 160px 170px 55px
 
 .subrayado
     color: #4caf50
+
+.grid-item img
+    max-width: 10rem
+    max-height: 10rem
+
+.texto-card
+    margin: 1rem
+    text-align: center
+
+.boton-card
+    margin: 1rem
+    display: flex
+    justify-content: center
+    justify-items: center
+
+.img-card
+    margin: 1rem
+    max-width: 100%
+
+.boton-card button
+    color: green
+    border: none
+    background: none
+    cursor: pointer
+
+.sesion6
+    background-color: #45B39D
+    border: 2px solid black
+    text-align: center
+
+.sesion6 .row
+    margin: 2px
+
+.sesion6 .col-6
+    border: 1px solid black
+
+.sesion6 .col-8
+    border: 1px solid black
+
+.sesion6 .col-4
+    border: 1px solid black
