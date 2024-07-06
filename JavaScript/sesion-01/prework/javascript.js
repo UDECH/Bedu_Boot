@@ -71,3 +71,22 @@ var resultado = 4++; // 5
 var resultado = 4--; // 3
 
 
+/* -------------------------------------------------------------------------- */
+!!"false" == !!"true"; //da true
+!!"false" === !!"true"; //da true tambien
+
+!"false" == !"false"; //da true
+!"false" === !"false"; //da true tambien
+
+true == true; //da true
+true === true; //da true tambien
+
+
+[] == ![] //da true
+0 == ![] //da true
+0 == false //da true
+0 == 0 //da true
+
+NaN === NaN; //da false
+
+
